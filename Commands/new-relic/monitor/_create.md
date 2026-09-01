@@ -34,5 +34,5 @@ Creates a new New Relic monitor resource in your Azure subscription. This sets u
 
 - Create a New Relic monitor
     ```bash
-        new-relic monitor create --resource-group myResourceGroup --name myNewRelicMonitor --location eastus --user-info first-name=FirstName last-name=LastName email-address=user@example.com phone-number=0000000000 --plan-data billing-cycle=MONTHLY effective-date=2026-06-01T00:00:00Z plan-details=newrelic-pay-as-you-go-free-live@TIDgmz7xq9ge3py@PUBIDnewrelicinc1635200720692.newrelic_liftr_payg usage-type=PAYG --account-creation-source LIFTR --org-creation-source LIFTR --tags environment=Production
+        new-relic monitor create --resource-group myResourceGroup --name myNewRelicMonitor --location eastus --user-info first-name=FirstName last-name=LastName email-address=user@example.com phone-number=0000000000 --plan-data billing-cycle=MONTHLY effective-date=2026-06-01T00:00:00Z plan-details=newrelic-pay-as-you-go-free-live@TIDn7ja87drquhy@PUBIDnewrelicinc1635200720692.newrelic_liftr_payg_2025 usage-type=PAYG --account-creation-source LIFTR --org-creation-source LIFTR --tags environment=Production
     ```
